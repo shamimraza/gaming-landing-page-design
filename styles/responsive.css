@@ -6,7 +6,8 @@
         margin-top: 50px;
         justify-content: space-around;
     }
-    header{
+
+    header {
         background-color: aliceblue;
     }
 
@@ -24,7 +25,8 @@
     banner section .banner-container {
         flex-direction: column-reverse;
     }
-    .banner-container{
+
+    .banner-container {
         padding: 0 10px;
     }
 
@@ -46,7 +48,24 @@
         padding: 0;
     }
 
+    /* play game */
 
+    .play-game-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .play-text {
+        width: 100%;
+    }
+
+    .play-text h2 {
+        margin: 10px 20px;
+        text-align: center;
+    }
+
+    .play-img img {
+        margin: 10px;
+    }
 
 }
 
@@ -78,6 +97,7 @@
 
     .banner-container {
         flex-direction: column-reverse;
+        align-items: center;
     }
 
     .banner-title {
@@ -97,4 +117,43 @@
     .banner-btn-style {
         padding: 0;
     }
+
+    .online-container {
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+
+    .card {
+        width: 100%;
+        margin-top: 60px;
+    }
+
+    .online-container card {
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* play game */
+
+    .play-game-container {
+        flex-direction: column;
+        margin: 60px;
+    }
+
+    .play-text {
+        width: 100%;
+    }
+
+    .play-text h2 {
+        margin: 10px 20px;
+        text-align: center;
+    }
+
+    .play-img img {
+        margin: 10px;
+    }
+    .footer-container{
+        padding: 10px;
+    }
+
 }
