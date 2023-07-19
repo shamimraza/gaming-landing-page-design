@@ -47,20 +47,27 @@
     .banner-btn-style {
         padding: 0;
     }
+
+    .play-game-container {
+        flex-direction: column;
+        margin-bottom: 20px;
+        min-height: 100%
+    }
+
     .online-container {
         grid-template-columns: repeat(2, 1fr);
         margin-bottom: 20px;
     }
 
-     /* review section */
-     .review-container-title{
-        grid-template-columns: repeat(4, 1fr);
-        margin: 10px 10px;
+    /* review section */
+    .review-container-title {
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
     }
 
     /* play game */
 
-    .play-game-container{
+    .play-game-container {
         grid-template-columns: repeat(2, 1fr);
     }
 
@@ -76,8 +83,9 @@
     .play-img img {
         margin: 10px;
     }
-
 }
+
+
 
 
 /* mobile responsive */
@@ -162,14 +170,15 @@
     .play-img img {
         margin: 10px;
     }
-    .footer-container{
+
+    .footer-container {
         padding: 10px;
     }
 
     /* review section */
-    .review-container-title{
-        grid-template-columns: repeat(2, 1fr);
-        margin: 10px 10px;
+    .review-container-title {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 1px 10px;
     }
 
 }

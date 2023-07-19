@@ -20,8 +20,9 @@ header {
     max-width: 1240px;
     min-height: 70px;
     margin: 0 auto;
-    align-items: center;
     display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .nav-img {
@@ -65,6 +66,7 @@ header {
 }
 
 /* banner section */
+
 .banner-container {
     max-width: 1240px;
     min-height: 400px;
@@ -72,7 +74,6 @@ header {
     display: flex;
     justify-content: center;
 }
-
 
 .banner-text {
     width: 50%;
@@ -83,7 +84,6 @@ header {
     display: flex;
     align-items: center;
 }
-
 
 .banner-img {
     width: 50%;
@@ -154,10 +154,7 @@ header {
     margin: 0 auto;
 }
 
-/* .card:hover {} */
-/* .card:hover{
-    c
-} */
+/* online game funny video section */
 
 .card {
     width: 300px;
@@ -245,6 +242,7 @@ header {
 }
 
 /* review section */
+
 .section-container {
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
@@ -287,6 +285,7 @@ header {
 
 
 /* footer section */
+
 .footer-container {
     background: #0B0223;
     height: 300px;
