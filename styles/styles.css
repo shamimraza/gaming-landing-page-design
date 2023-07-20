@@ -187,7 +187,7 @@ header {
 /* play game section */
 
 .play-game-container {
-    margin: 0px 140px 20px 280px;
+    margin: 10px 140px 20px 280px;
     min-height: 600px;
     display: flex;
     align-items: center;
@@ -203,20 +203,20 @@ header {
     margin-right: 70px;
 }
 
-.play-text h2 {
+.play-text h4 {
     margin-bottom: 10px;
     text-align: right;
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 700;
 
 }
 
 .play-text p {
     color: #534C64;
     text-align: right;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
-    margin-bottom: 10px;
+    margin-top: 40px;
 }
 
 .play-img img {
