@@ -64,9 +64,18 @@
         align-items: center;
     }
 
-    .play-text h2 p {
+    .play-text h4{
+        margin-top: 20px;
+        margin-right: 80px;
         text-align: center;
-        align-items: center;
+    }
+    .play-text p{
+        margin-bottom: 20px;
+        margin-right: 60px;
+        text-align: center;
+    }
+    .play-img img{
+        margin-right: 80px;
     }
 
     /* online game card section */
