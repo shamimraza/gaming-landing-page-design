@@ -37,11 +37,12 @@
         width: 100%;
         border: auto 0;
     }
+
     .banner-title {
         align-items: center;
         justify-content: center;
     }
-    
+
 
     .banner-img {
         width: 100%;
@@ -56,12 +57,14 @@
         min-height: 100%;
         margin-top: 60px;
     }
+
     .play-text {
         width: 100%;
         justify-content: center;
         align-items: center;
     }
-    .play-text h2 p{
+
+    .play-text h2 p {
         text-align: center;
         align-items: center;
     }
@@ -80,8 +83,9 @@
         justify-content: center;
         align-content: center;
     }
+
     .single-review {
-        width:230px;
+        width: 230px;
         height: 50px;
         display: flex;
         align-items: center;
@@ -104,7 +108,7 @@
         text-align: center;
     }
 
-   
+
 }
 
 
@@ -163,15 +167,25 @@
         align-items: center;
     }
 
-    .card {
-        width: 100%;
-        margin-top: 60px;
+    /* card section */
+
+    .card-container {
+        grid-template-columns: 1fr;
+        margin-top: 50px;
+       
+    }
+    .card p{
+        text-align: center;
+        margin-left: 100px;
     }
 
-    .online-container card {
-        align-items: center;
-        justify-content: center;
+    .card img {
+        width: 200px;
+        height: 250px;
+        margin-left: 100px;
     }
+
+
 
     /* play game */
 
@@ -193,21 +207,22 @@
         width: 250px;
         height: 300px;
     }
+
     .position img {
         width: 100px;
         height: 100px;
     }
+
     .position {
         position: absolute;
         left: -50px;
         bottom: -40px;
     }
 
-    .footer-container {
-        padding: 10px;
-    }
+
 
     /* review section */
+
     .review-container-title {
         grid-template-columns: repeat(1, 1fr);
         margin: 1px 10px;
@@ -219,13 +234,21 @@
         justify-content: center;
         align-content: center;
     }
+
     .single-review {
-        width:200px;
+        width: 200px;
         height: 50px;
         display: flex;
         align-items: center;
         gap: 5px;
         border-radius: 20px;
+        padding: 10px;
+    }
+
+
+    /* footer section */
+
+    .footer-container {
         padding: 10px;
     }
 
