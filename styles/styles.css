@@ -156,9 +156,7 @@ header {
 }
 
 /* online game funny video section */
-.card:hover{
-    back
-}
+
 .card {
     width: 300px;
     height: 350px;
@@ -205,7 +203,8 @@ header {
 .play-text {
     width: 50%;
     align-items: center;
-    padding-right: 100px;
+    justify-content: center;
+    margin-right: 70px;
 }
 
 .play-text h2 {

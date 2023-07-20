@@ -22,37 +22,51 @@
         flex-direction: column;
     }
 
+    /* banner section */
+
     banner section .banner-container {
         flex-direction: column-reverse;
     }
 
     .banner-container {
-        padding: 0 10px;
+        flex-direction: column-reverse;
+        align-items: center;
     }
 
     .banner-title {
         width: 100%;
         border: auto 0;
     }
+    .banner-title {
+        align-items: center;
+        justify-content: center;
+    }
+    
 
     .banner-img {
-        width: 60%;
+        width: 100%;
         margin: 20px;
     }
 
-    .banner-btn {
-        padding: 0;
-    }
-
-    .banner-btn-style {
-        padding: 0;
-    }
+    /* play install section*/
 
     .play-game-container {
         flex-direction: column;
         margin-bottom: 20px;
-        min-height: 100%
+        min-height: 100%;
+        margin-top: 60px;
     }
+    .play-text {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .play-text h2 p{
+        text-align: center;
+        align-items: center;
+    }
+
+    /* online game card section */
 
     .online-container {
         grid-template-columns: repeat(2, 1fr);
@@ -61,8 +75,18 @@
 
     /* review section */
     .review-container-title {
-        grid-template-columns: repeat(2, 1fr);
-        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        align-content: center;
+    }
+    .single-review {
+        width:230px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        border-radius: 20px;
+        margin-left: 20px;
     }
 
     /* play game */
@@ -80,9 +104,7 @@
         text-align: center;
     }
 
-    .play-img img {
-        margin: 10px;
-    }
+   
 }
 
 
@@ -168,7 +190,17 @@
     }
 
     .play-img img {
-        margin: 10px;
+        width: 250px;
+        height: 300px;
+    }
+    .position img {
+        width: 100px;
+        height: 100px;
+    }
+    .position {
+        position: absolute;
+        left: -50px;
+        bottom: -40px;
     }
 
     .footer-container {
@@ -179,6 +211,22 @@
     .review-container-title {
         grid-template-columns: repeat(1, 1fr);
         margin: 1px 10px;
+    }
+
+    .review-container-title {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-content: center;
+    }
+    .single-review {
+        width:200px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        border-radius: 20px;
+        padding: 10px;
     }
 
 }
