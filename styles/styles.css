@@ -254,8 +254,8 @@ header {
     max-width: 1240px;
     margin: 0 auto;
     min-height: 300px;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-content: center;
     gap: 20px;
