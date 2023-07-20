@@ -68,11 +68,9 @@ header {
 /* banner section */
 
 .banner-container {
-    max-width: 1240px;
-    min-height: 400px;
-    margin: 0 auto;
+    min-height: 300px;
     display: flex;
-    justify-content: center;
+    justify-content:center;
 }
 
 .banner-text {
@@ -83,18 +81,21 @@ header {
     background-size: cover;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .banner-img {
     width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .banner-img img {
-    width: 70%;
+    width: 60%;
     height: 100%;
-    display: block;
-    margin: 0 auto;
 }
+
 
 .banner-title h2 {
     color: #0B0223;
@@ -155,7 +156,9 @@ header {
 }
 
 /* online game funny video section */
-
+.card:hover{
+    back
+}
 .card {
     width: 300px;
     height: 350px;
